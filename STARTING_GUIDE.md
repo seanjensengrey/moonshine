@@ -99,3 +99,5 @@ Load Chrome or Firefox, open devtools and open console. Should see
 ```
 Hello, Lua!
 ``` 
+
+![chrome-screenshot.png](docs/starting/chrome-screenshot.png)
