@@ -44,7 +44,7 @@ var Parser = require('../../distillery/distillery.moonshine.js').Parser,
 		noRecursion: ['-R', false],
 		stripDebugging: ['-s', false],
 		watch: ['-w', false],
-		compiler: ['-c', 'luac']
+		compiler: ['-c', 'luac-5.1']
 	};
 
 
