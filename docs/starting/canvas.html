@@ -15,14 +15,14 @@
 
     <script>
 
-var do_lua = function() {
+var load_lua = function() {
     var vm = new shine.VM(shine.DOMAPI);
     vm.load('./canvas.lua.json');
 }
     </script>
 
 </head>
-<body onload="do_lua();">
+<body onload="load_lua();">
 
 <canvas id="canvas" width="512" height="512">
 canvas goes here
