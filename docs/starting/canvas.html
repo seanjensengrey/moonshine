@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        canvas {
+            border-style: solid;
+            border-width: 1px;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="./moonshine.js"></script>
+    <script src="./extensions/DOMAPI/DOMAPI.moonshine.js"></script>
+
+    <script>
+
+var do_lua = function() {
+    var vm = new shine.VM(shine.DOMAPI);
+    vm.load('./canvas.lua.json');
+}
+    </script>
+
+</head>
+<body onload="do_lua();">
+
+<canvas id="canvas" width="512" height="512">
+canvas goes here
+</canvas>
+<br>
+</body>
+</html>
